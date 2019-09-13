@@ -1,0 +1,35 @@
+{
+  "name": "item",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "jenismotor": {
+      "type": "string"
+    },
+    "typemotor": {
+      "type": "string"
+    },
+    "merekmotor": {
+      "type": "string"
+    },
+    "jumlahmotor": {
+      "type": "string"
+    },
+    "hargamotor": {
+      "type": "string"
+    },
+    "createAt": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

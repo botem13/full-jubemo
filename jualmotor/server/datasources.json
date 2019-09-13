@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongodb": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "jualmotor",
+    "name": "mongodb",
+    "connector": "mongodb",
+    "extended_operators": true,
+    "alowExtendedOperators": true
+  }
+}
